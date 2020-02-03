@@ -34,7 +34,8 @@
         console.log("done:", doneValue);
 
         $.post("/tasks/" + itemId, {
-          _method: "PUT",
+
+            _method: "put",
           task: {
             done: doneValue
           }
